@@ -2,8 +2,8 @@
 #SBATCH -J summary_statistics_bam_alignment
 #SBATCH --output=summary_statistics_bam_alignment-%j.output
 #SBATCH --error=summary_statistics_bam_alignment-%j.error
-#SBATCH -t 120:00:00
-#SBATCH --partition=bmh
+#SBATCH -t 24:00:00
+#SBATCH --partition=bml
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=plunarodriguez@ucdavis.edu
 #SBATCH --nodes=1
